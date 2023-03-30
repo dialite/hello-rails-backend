@@ -23,13 +23,16 @@ default: &default
 
 development:
   <<: *default
-  database: hello_rails_back_end_development
+  database: rails_backend_app_development
+  username: postgres
+  password: anieray01
+  host: localhost
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user running Rails.
-  #username: hello_rails_back_end
+  #username: Blog_app_rails
 
   # The password associated with the postgres role (username).
   #password:
@@ -57,7 +60,10 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: hello_rails_back_end_test
+  database: rails_backend_app_test
+  username: postgres
+  password: anieray01
+  host: localhost
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -81,6 +87,7 @@ test:
 #
 production:
   <<: *default
-  database: hello_rails_back_end_production
-  username: hello_rails_back_end
-  password: <%= ENV["HELLO_RAILS_BACK_END_DATABASE_PASSWORD"] %>
+  database: rails_backend_app_rails_production
+  username: postgres
+  password: anieray01
+  host: localhost
