@@ -22,7 +22,7 @@
 
 # Hello-Rails-Backend <a name="hello-rails-react"></a>
 
-**Hello Rails Backend** is a backend web application that handles the API to display a random greeting message on screen using [Hello React Frontend](https://github.com/dialite/hello-react-front-end.git) as front-end.
+**Hello Rails Backend** is a backend web application that handles the API to display a random greeting message on screen using [Hello React Frontend](https://github.com/dialite/hello-react-frontend.git) as front-end.
 
 ## 🛠 Built With <a name="built-with"></a>
 
